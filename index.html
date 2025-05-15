@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Signup Form</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="imageContainer">
+            <img src="greenimg.avif" alt="image of nature">
+            <div id="imageHeader">Template</div>
+            <p>photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+        </div>
+        <div class="signContainer">
+            <div id="intro">
+                <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</h3>
+                <h3>You <i>know</i> you want to.</h3>
+            </div>
+            <form>
+                <div id="signUp">
+                    <h2>Let's do this!</h2>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="input-group">
+                                <label for="firstName">First name</label>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" required>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="input-group">
+                                <label for="lastName">Last name</label>
+                                <input type="text" id="lastName" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="phoneNumber">Phone number</label>
+                                <input type="tel" id="phoneNumber" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="confirmPassword">Confirm password</label>
+                                <input type="password" id="confirmPassword" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="createAccount">
+                    <button type="submit">Create account</button>
+                    <p>Already have an account? <a href="#" id="greenText">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
