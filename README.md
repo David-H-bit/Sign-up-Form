@@ -1,2 +1,9 @@
-# Sign-up-Form
-This website is a simple sign up form, including some basic user information and validation of the input
+# Sign-Up Form
+
+A simple sign-up form built with **HTML**, **CSS**, and **JavaScript**.  
+Includes basic user input validation (like matching passwords).
+
+## What I practiced:
+- Form structure and layout
+- Input validation with JS
+- Basic responsive styling
